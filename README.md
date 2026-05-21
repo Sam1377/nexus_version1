@@ -2,7 +2,7 @@
 
 **Real-time collaborative coding platform** — multiple developers, one shared room, instant sync.
 
-> Nexus is a modernised rebuild of the CodeCast concept, using the same MERN + Socket.IO stack with a fresh dark-red developer UI, VS Code editor theme, and JWT auth.
+> Nexus is a modernised rebuild concept, using the same MERN + Socket.IO stack with a fresh dark-red developer UI, VS Code editor theme, and JWT auth.
 
 ---
 
