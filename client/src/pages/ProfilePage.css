@@ -1,0 +1,58 @@
+.profile-page { min-height: 100vh; background: var(--bg-primary); }
+
+.profile-main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+}
+
+.profile-card { padding: 36px; display: flex; flex-direction: column; gap: 28px; }
+
+.profile-avatar-section { display: flex; align-items: center; gap: 24px; }
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, var(--nexus-red-dark), var(--nexus-red));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 2px solid rgba(230, 57, 70, 0.3);
+  box-shadow: 0 0 24px rgba(230, 57, 70, 0.2);
+  overflow: hidden;
+}
+.profile-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.avatar-initial { font-size: 2rem; font-weight: 700; color: #fff; }
+
+.profile-identity { display: flex; flex-direction: column; gap: 6px; }
+.profile-username { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
+.profile-email { font-size: 0.85rem; color: var(--text-muted); }
+.profile-badges { display: flex; gap: 8px; margin-top: 4px; }
+
+.profile-form { display: flex; flex-direction: column; gap: 18px; }
+.profile-bio { resize: vertical; min-height: 80px; font-family: 'Inter', sans-serif; }
+.char-count { font-size: 0.72rem; color: var(--text-muted); align-self: flex-end; margin-top: -10px; }
+
+.profile-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 20px;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.stat-val { font-size: 1.6rem; font-weight: 700; color: var(--nexus-red); }
+.stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+@media (max-width: 480px) {
+  .profile-avatar-section { flex-direction: column; align-items: flex-start; }
+  .profile-stats { grid-template-columns: 1fr 1fr; }
+}

@@ -1,0 +1,19 @@
+.code-editor-wrap {
+  height: 100%;
+  overflow: hidden;
+}
+
+.code-editor-wrap .cm-editor {
+  height: 100%;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace !important;
+}
+
+.code-editor-wrap .cm-scroller {
+  overflow: auto;
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* VS Code dark already handles colors; just tune the background slightly */
+.code-editor-wrap .cm-editor.cm-focused {
+  outline: none;
+}
