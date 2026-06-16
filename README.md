@@ -4,6 +4,8 @@
 
 > Nexus is a modernised rebuild concept, using the same MERN + Socket.IO stack with a fresh dark-red developer UI, VS Code editor theme, and JWT auth.
 
+https://github.com/user-attachments/assets/5ac59330-d2b8-451a-b53b-8e9fae5748dc
+
 ---
 
 ## Features
